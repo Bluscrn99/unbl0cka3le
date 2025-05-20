@@ -22,7 +22,7 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 ## Domains
 
-| Domain|Type|Status|
+|Domain|Type|Status|
 |-|-|-|
 |https://unbl0cka3le-home.onrender.com|Testing|Working|
 
