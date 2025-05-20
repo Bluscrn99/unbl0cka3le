@@ -22,9 +22,9 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 ## Domains
 
-| Domain        | Type |
-|---------------|------|
-| https://unbl0cka3le-home.onrender.com   | Testing |
+| Domain|Type|Status|
+|-|-|-|
+|https://unbl0cka3le-home.onrender.com|Testing|404 Error|
 
 ---
 # [discord](https://discord.gg/72nbb86fXB)
