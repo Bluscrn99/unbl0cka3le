@@ -9,3 +9,7 @@ git add .
 
 # Commit with the entered message
 git commit -m "$commitMessage"
+
+# Push the commit
+$confirmation = Read-Host "Are you sure you want to push to git?"
+git push
