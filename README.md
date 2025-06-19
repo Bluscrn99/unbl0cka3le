@@ -21,11 +21,11 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 ---
 
-## Domains
+## domains
 
-|Domain|Type|Status|
+|domain|type|status|
 |-|-|-|
-|https://unbl0cka3le-home.onrender.com|Testing|Working|
+|https://unbl0cka3le-home.onrender.com|testing|working|
 
 ---
 # [discord](https://discord.gg/72nbb86fXB)
