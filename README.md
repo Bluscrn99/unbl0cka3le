@@ -1,4 +1,4 @@
-# 🚨 this utility is not finished or an open beta yet 🚨
+# 🚨 this utility is not finished 🚨
 # 👉 join [the discord](https://discord.gg/72nbb86fXB) 👈
 ---
 # unbl0cka3le 
