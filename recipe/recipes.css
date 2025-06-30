@@ -4,3 +4,12 @@
 .red {
     color: red;
 }
+.title {
+    background-color: rgb(255, 128, 0);
+}
+.recipe {
+    background-color: rgb(255, 71, 71);
+}
+.description {
+    background-color: rgb(255, 208, 65);
+}
