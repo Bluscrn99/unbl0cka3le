@@ -24,7 +24,7 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 ## domains
 
-| site          | type    | status |
+| site | type | status |
 | ------------- | ---- | --- |
 | bluserver.xyz | news | n/a |
 
