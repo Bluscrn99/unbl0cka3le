@@ -3,3 +3,6 @@
     background: rgb(100, 0, 255);
     color: white;
 }
+.rounded {
+    border-radius: 8px;
+}
