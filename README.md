@@ -24,9 +24,9 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 ## domains
 
-|domain|type|status|blocked|
-|-|-|-|
-|https://www.bluserver.xyz|news|working|n/a|
+| domain | type | status | blocked |
+| - | - | - |
+|https://www.bluserver.xyz | news | working | n/a |
 
 ---
 # [discord](https://discord.gg/72nbb86fXB)
