@@ -27,3 +27,6 @@
 .link {
     text-decoration: none;
 }
+.outline {
+    outline: white solid 4px;
+}
