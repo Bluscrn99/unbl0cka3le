@@ -10,14 +10,14 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 ---
 ### upsides to using unbl0cka3le
 - 💰 we do not earn any money from this project 💰
-- 🍪 we dont bombard you with cookies 🍪
+- 🍪 we don't bombard you with cookies 🍪
 - 📦 we try our best to keep your information safe 📦
 - 🔑 this means keeping sign ins like google to a minimum, if not zero 🔑
 - 🚨 we keep up to-date on the blocking status of our sites 🚨
 - 🏢 we are not a big corporation looking to sell your data 🏢
 - 🛠️ "we" really means "me," as i am the only person on the team as of right now 🛠️
 - 📂 the project is completely open source- you can see all of the original code 📂
-- 💵 you wont ever see a "dont sell your information pop-up," because we never will 💵
+- 💵 you wont ever see a "don't sell your information" pop-up, because we never will 💵
 
 
 ---
@@ -25,7 +25,7 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 ## domains
 
 | site | type | status |
-| ------------- | ---- | --- |
+| ----------------- | ---- | --- |
 | www.bluserver.xyz | news | n/a |
 
 

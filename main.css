@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lucida Console', 'Courier New', 'Monaco', monospace;
+    background: rgb(100, 0, 255);
+    color: white;
+}
+.rounded {
+    border-radius: 8px;
+}
+.navbar {
+    border-radius: 8px;
+    outline: white solid 4px;
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+    display: flex
+}
+.navitem {
+    /* outline: white solid 4px; */
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    flex: auto;
+}
+.link {
+    text-decoration: none;
+}
