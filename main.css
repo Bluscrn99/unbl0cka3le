@@ -39,7 +39,7 @@
     margin: auto;
     border-radius: 8px;
     padding: 25px;
-    flex-wrap: wrap
+    /* flex-wrap: wrap */
 }
 .itemcontainer {
     width: 15%;
@@ -62,6 +62,10 @@
     border-radius: 8px;
     flex: 0 0 auto;
     background-color: rgb(129, 45, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .itemimage {
     width: 100%;
@@ -71,6 +75,14 @@
     flex: 0 0 auto;
     
 }
+/* .textcontainer {
+    flex: 0 0 auto;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    background-color: inherit;
+    align-content: center;
+} */
 .center {
     text-align: center;
 }
@@ -82,4 +94,6 @@
 .thumbnailtext {
     text-decoration: none;
     display: block;
+    text-align: center;
+    background-color: inherit;
 }
