@@ -27,3 +27,6 @@ function initializeFireBaseDev(){
 	// Initialize Firebase
 	firebase.initializeApp(firebaseConfig);
 }
+
+// Note from Bluscrn of Unbl0cka3le: BRO! You have your api key, auth domain, project id, and app id IN A JS FILE THAT ANYONE CAN SEE! lol.
+// AND the dev one! man, are you dumb! This file seems to be some kind of login, used for multiplayer. Can't remove it, I guess.

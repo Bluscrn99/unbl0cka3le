@@ -17,3 +17,5 @@ async function checkAdBlock() {
   }, 100);
 }
 // this script has been changed to say that adblock is always off even if it is on
+
+// Note from Bluscrn of Unbl0cka3le: Thank you to whoever made that note above.

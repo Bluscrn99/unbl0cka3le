@@ -8,16 +8,16 @@ isIframe = false;
 				if (v < maxRes) {
 					var ads = document.getElementsByClassName('ad');
 
-					for (const ad of ads) {
-						ad.style.transform = "scale(" + v / maxRes + ")";
-					}
+					// for (const ad of ads) {
+					// 	ad.style.transform = "scale(" + v / maxRes + ")";
+					// }
 				}
 				else {
-					var ads = document.getElementsByClassName('ad');
+					// var ads = document.getElementsByClassName('ad');
 
-					for (const ad of ads) {
-						ad.style.transform = "scale(1)";
-					}
+					// for (const ad of ads) {
+					// 	ad.style.transform = "scale(1)";
+					// }
 				}
 			}
 			window.addEventListener("resize", WindowResize);
@@ -38,3 +38,4 @@ isIframe = false;
 			document.head.appendChild(styleSheet)
 		}
 		
+// Note from Bluscrn of Unbl0cka3le: Tried to remove ad related code

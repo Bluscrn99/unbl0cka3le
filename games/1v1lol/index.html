@@ -2,17 +2,16 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8" />
-    <title>1v1.LOL </title>
+    <title>Games</title>
     <meta name="robots" content="noindex,nofollow" />
-    <script src="js/googleAnalytics.js"></script>
     <script src="lib/jquery.min.js"></script>
     <script src="js/IronSourceRV.js"></script>
-    <script src="js/mobileRedirect.js"></script>
+    <!-- <script src="js/mobileRedirect.js"></script> -->
     <script src="js/fullscreen.js"></script>
     <script>
       var gameLoaded = false;
       window.addEventListener("beforeunload", function (e) {
-        if (adsVisible || !gameLoaded || !lockedOccured) return null;
+        if (!gameLoaded || !lockedOccured) return null;
         var confirmationMessage = "Are you sure you want to leave? ";
         (e || window.event).returnValue = confirmationMessage; //Gecko + IE
         return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
@@ -33,6 +32,14 @@
 
     <!-- ZONETAG - PLACE INTO HEAD SECTION OR RUN CODE AT STARTUP -->
     <script>
+
+
+      // These files has been modified by Bluscrn of Unbl0cka3le to keep safety and UX up. I have left notes along the way.
+      // I have no idea if it will still work. Lets see!
+
+
+
+
       (function (zonefile) {
         var y = window.location.href
           .split("#")[0]
@@ -90,12 +97,11 @@
   </head>
 
   <body>
-    <div class="ads">
+    <!-- <div class="ads">
       <div class="ad-smallscreen">
         <div class="ad ad-rectangle-bottom"></div>
       </div>
       <div class="ad ad-rectangle-upper" id="adRectangleUpper">
-        <!-- 300X250B PLACEMENT TAG - PLACE INTO BODY (ZONE TAG REQUIRED) -->
         <script>
           (function (w, pid) {
             var r = function (c, m) {
@@ -112,7 +118,6 @@
       </div>
       <div class="ad-largescreen">
         <div class="ad ad-leaderboard-bottom">
-          <!-- 300X600B PLACEMENT TAG - PLACE INTO BODY (ZONE TAG REQUIRED) -->
           <script>
             (function (w, pid) {
               var r = function (c, m) {
@@ -128,7 +133,9 @@
           </script>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    Note from Bluscrn of Unbl0cka3le: All of the above code is for ads. I hate ads. Die.
 
     <!-- <div id="interAdsContainer" style="display: none;"></div> -->
     <div id="gameContainer"></div>
@@ -217,7 +224,8 @@
         }
       }
 
-      injectAdByWindowSize();
+      // injectAdByWindowSize();
+      // Note from Bluscrn of Unbl0cka3le: No thank you.
 
       var refreshNextTime = true;
 
@@ -235,6 +243,8 @@
         }
       }
 
+      // Note from Bluscrn of Unbl0cka3le: Can't delete this incase things still call it
+
       function hideAds() {
         document.getElementsByClassName("ad-rectangle-bottom")[0].style.display = "none";
         document.getElementsByClassName("ad-leaderboard-bottom")[0].style.display = "none";
@@ -245,6 +255,7 @@
 
       // hide ads
       hideAds();
+      // Note from Bluscrn of Unbl0cka3le: Yay!
 
       function refresh() {
         //console.log("time since ads refresh = " + timeSinceRefresh + " seconds");
@@ -255,15 +266,15 @@
           return;
         }
 
-        if (document.getElementById("adRectangleBottom") != null && window.getComputedStyle(document.getElementsByClassName("ad-smallscreen")[0]).display != "none") {
-          cpmstarAPI({ kind: "adcmd", module: "POOL 83023", command: "refresh" });
-        }
+        // if (document.getElementById("adRectangleBottom") != null && window.getComputedStyle(document.getElementsByClassName("ad-smallscreen")[0]).display != "none") {
+        //   cpmstarAPI({ kind: "adcmd", module: "POOL 83023", command: "refresh" });
+        // }
 
-        if (document.getElementById("adLeaderboardBottom") != null && window.getComputedStyle(document.getElementsByClassName("ad-largescreen")[0]).display != "none") {
-          cpmstarAPI({ kind: "adcmd", module: "POOL 85420", command: "refresh" });
-        }
+        // if (document.getElementById("adLeaderboardBottom") != null && window.getComputedStyle(document.getElementsByClassName("ad-largescreen")[0]).display != "none") {
+        //   cpmstarAPI({ kind: "adcmd", module: "POOL 85420", command: "refresh" });
+        // }
 
-        cpmstarAPI({ kind: "adcmd", module: "POOL 83025", command: "refresh" });
+        // cpmstarAPI({ kind: "adcmd", module: "POOL 83025", command: "refresh" });
 
         timeSinceRefresh = 0;
         timeAdsVisible = 0;
@@ -288,7 +299,8 @@
 
       function startCounter() {
         timeSinceRefresh++;
-        if (adsVisible) timeAdsVisible++;
+        // if (adsVisible) timeAdsVisible++;
+        // Note from Bluscrn of Unbl0cka3le: No thank you.
 
         counter = setTimeout(function () {
           startCounter();
@@ -327,13 +339,13 @@
       initRemoteConfig();
     </script>
 
-    <script src="js/windowResize.js"></script>
-    <script src="js/adblockManager.js"></script>
+    <!-- <script src="js/windowResize.js"></script> -->
+    <!-- <script src="js/adblockManager.js"></script> -->
     <script src="js/macUserAgent.js"></script>
     <script src="js/visibilityChangeListener.js"></script>
     <script>
       function onUnityReady() {
-        checkAdBlock();
+        checkAdBlock(); // < Someone else already killed this guy, thanks someone else. 
         sendConfig();
       }
 

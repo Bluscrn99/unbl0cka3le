@@ -4,6 +4,13 @@
  Copyright The Closure Library Authors.
  SPDX-License-Identifier: Apache-2.0
 */
+
+
+
+
+// Note from Bluscrn of Unbl0cka3le: There could be 2000 trackers here, im not reading this ( - :, the way it's written makes me think they are hiding something, but it is in "sdkloader" so I can't get rid of it.
+
+
 var l,aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},ba="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a},ca=function(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");
 },da=ca(this),p=function(a,b){if(b)a:{var c=da;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&null!=b&&ba(c,a,{configurable:!0,writable:!0,value:b})}};
 p("Symbol",function(a){if(a)return a;var b=function(f,g){this.g=f;ba(this,"description",{configurable:!0,writable:!0,value:g})};b.prototype.toString=function(){return this.g};var c="jscomp_symbol_"+(1E9*Math.random()>>>0)+"_",d=0,e=function(f){if(this instanceof e)throw new TypeError("Symbol is not a constructor");return new b(c+(f||"")+"_"+d++,f)};return e});

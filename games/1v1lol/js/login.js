@@ -65,7 +65,7 @@ function firebaseLogin(providerName, successCallback, errorCallback) {
 			var errorCode = error.code;
 			var errorMessage = error.message;
 			// The email of the user's account used.
-			var email = error.email;
+			// var email = error.email;
 			// The firebase.auth.AuthCredential type that was used.
 			tempErrorCreds = error.credential;
 			console.log(error);
