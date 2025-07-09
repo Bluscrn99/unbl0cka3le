@@ -26,7 +26,7 @@ for us to be *"unblockable"*, we take it upon ourselves to use money out of our 
 
 | site | type | status |
 | ----------------- | ---- | --- |
-| www.bluserver.xyz | news | n/a |
+| www.bluserver.xyz | main | yes |
 
 
 
